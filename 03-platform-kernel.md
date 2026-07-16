@@ -1,6 +1,6 @@
 # 03 · Platform / Kernel 抽象与插件机制（olla/）
 
-**这是 NPU 适配者最关键的一篇。** OpenMM 整个多后端架构的核心就在 `https://github.com/openmm/openmm/blob/master/olla/`（OpenMM Low-Level Abstraction）。理解它，就知道新增一个 NPU 平台需要做什么。
+**这是 NPU 适配者最关键的一篇。** OpenMM 整个多后端架构的核心就在 `olla/`（OpenMM Low-Level Abstraction）。理解它，就知道新增一个 NPU 平台需要做什么。
 
 ## 3.1 olla 在源码中的位置
 

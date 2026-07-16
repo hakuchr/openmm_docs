@@ -4,7 +4,7 @@
 
 ## 9.1 顶层 CMakeLists.txt 概览
 
-**路径**：`https://github.com/openmm/openmm/blob/master/CMakeLists.txt`（474 行）
+**路径**：`CMakeLists.txt`（474 行）
 
 关键元信息：
 - 版本：`OPENMM_MAJOR_VERSION 8`、`MINOR 5`、`BUILD 0`（`:158-160`）
@@ -199,11 +199,11 @@ cmake -S . -B build -DOPENMM_BUILD_NPU_LIB=ON
 
 ## 9.11 关键文件
 
-- `https://github.com/openmm/openmm/blob/master/CMakeLists.txt`（顶层，474 行）
-- `https://github.com/openmm/openmm/blob/master/cmake_modules/FindOpenCL.cmake`
-- `https://github.com/openmm/openmm/blob/master/cmake_modules/TargetArch.cmake`
-- `https://github.com/openmm/openmm/blob/master/cmake_modules/EncodeKernelFiles.cmake`
-- `https://github.com/openmm/openmm/blob/master/platforms/hip/CMakeLists.txt`（NPU 镜像模板）
-- `https://github.com/openmm/openmm/blob/master/platforms/common/CMakeLists.txt`
+- `CMakeLists.txt`（顶层，474 行）
+- `cmake_modules/FindOpenCL.cmake`
+- `cmake_modules/TargetArch.cmake`
+- `cmake_modules/EncodeKernelFiles.cmake`
+- `platforms/hip/CMakeLists.txt`（NPU 镜像模板）
+- `platforms/common/CMakeLists.txt`
 
 下一篇 [10-workflow.md](10-workflow.md) 讲端到端运行时工作流。

@@ -1,6 +1,6 @@
 # 02 · 公共 C++ API 详解（openmmapi/）
 
-本篇梳理 OpenMM 平台无关的公共 C++ API，位于 `https://github.com/openmm/openmm/blob/master/openmmapi/`。这是用户与 OpenMM 交互的入口，也是所有硬件后端必须服务的"契约"。
+本篇梳理 OpenMM 平台无关的公共 C++ API，位于 `openmmapi/`。这是用户与 OpenMM 交互的入口，也是所有硬件后端必须服务的"契约"。
 
 ## 2.1 目录结构
 

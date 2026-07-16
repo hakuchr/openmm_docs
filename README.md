@@ -31,11 +31,10 @@
 
 OpenMM 源码仓库：https://github.com/openmm/openmm.git
 
-文档中的文件路径均相对于该仓库根目录，并以下述形式给出可点击链接：
-```
-https://github.com/openmm/openmm/blob/master/<相对路径>
-```
-行号引用格式为 `path:line`，便于在源码中跳转定位。
+文档中源码路径均相对于该仓库根目录，例如 `openmmapi/src/ContextImpl.cpp`
+对应 https://github.com/openmm/openmm/blob/master/openmmapi/src/ContextImpl.cpp
+
+行号引用格式为 `path:line`（如 `ContextImpl.cpp:113`），便于在源码中定位。
 
 ## 版本信息
 

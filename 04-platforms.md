@@ -1,6 +1,6 @@
 # 04 · 六个平台后端剖析（platforms/）
 
-本篇逐平台剖析 `https://github.com/openmm/openmm/blob/master/platforms/` 下的 6 个后端。**重点是 common + CUDA/HIP 范式**——这是 NPU 后端最该模仿的模板。
+本篇逐平台剖析 `platforms/` 下的 6 个后端。**重点是 common + CUDA/HIP 范式**——这是 NPU 后端最该模仿的模板。
 
 ## 4.1 平台总览
 

@@ -35,7 +35,7 @@ graph TD
     L2 --> L3
 ```
 
-### 第一层：公共 API（`https://github.com/openmm/openmm/blob/master/openmmapi/`）
+### 第一层：公共 API（`openmmapi/`）
 
 平台无关的用户接口。用户构造 `System`（分子模型）、`Force`（力场项）、`Integrator`（积分器），再创建 `Context`（运行时状态）来跑模拟。这一层**完全不感知硬件**——它只声明"我需要哪些内核（kernel）"，由下层负责实际计算。
 
@@ -43,7 +43,7 @@ graph TD
 
 详细见 [02-core-api.md](02-core-api.md)。
 
-### 第二层：抽象分发层（`https://github.com/openmm/openmm/blob/master/olla/`）
+### 第二层：抽象分发层（`olla/`）
 
 **olla = OpenMM Low-Level Abstraction**，是整个多后端架构的基石。它定义：
 
@@ -57,7 +57,7 @@ graph TD
 
 详细见 [03-platform-kernel.md](03-platform-kernel.md)。
 
-### 第三层：硬件后端（`https://github.com/openmm/openmm/blob/master/platforms/`）
+### 第三层：硬件后端（`platforms/`）
 
 6 个具体平台实现：
 
